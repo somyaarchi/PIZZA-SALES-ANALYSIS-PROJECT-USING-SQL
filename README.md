@@ -5,42 +5,31 @@ The Pizza Sales Analysis project involves analyzing sales data for a pizza resta
  we have 4 tables 
 The dataset typically contains multiple tables, including:
 
-Orders Table
+1.Orders Table
 
-order_id (INT, Primary Key)
-date (DATETIME)
-time (timme )
+-order_id (INT, Primary Key)
+-date (DATETIME)
+t-ime (timme )
 
 
-Order Details Table
+2.Order Details Table
 
-order_details_id	
+-order_details_id	
+-order_id
+-pizza_id	
+-quantity
 
-order_id
+3.Pizzas Table
+-pizza_id
+-pizza_type_id	
+-size	
+-price
 
-pizza_id	
-
-quantity
-
-Pizzas Table
-
-pizza_id
-
-pizza_type_id	
-
-size	
-
-price
-
-pizza type (optional)
-
-pizza_type_id
-
-name	
-
-category
-
-ingredients
+4.pizza type 
+-pizza_type_id
+-name	
+-category
+-ingredients
 
 Key Business Questions
 
@@ -48,37 +37,37 @@ Using SQL, we can answer important business questions like:
 
 Basic:
 
-Retrieve the total number of orders placed.
+1.Retrieve the total number of orders placed.
 
-Calculate the total revenue generated from pizza sales.
+2.Calculate the total revenue generated from pizza sales.
 
-Identify the highest-priced pizza.
+3.Identify the highest-priced pizza.
 
-Identify the most common pizza size ordered.
+4.Identify the most common pizza size ordered.
 
-List the top 5 most ordered pizza types along with their quantities.
+5.List the top 5 most ordered pizza types along with their quantities.
 
 
 Intermediate:
 
-Join the necessary tables to find the total quantity of each pizza category ordered.
+1.Join the necessary tables to find the total quantity of each pizza category ordered.
 
-Determine the distribution of orders by hour of the day.
+2.Determine the distribution of orders by hour of the day.
 
-Join relevant tables to find the category-wise distribution of pizzas.
+3.Join relevant tables to find the category-wise distribution of pizzas.
 
-Group the orders by date and calculate the average number of pizzas ordered per day.
+4.Group the orders by date and calculate the average number of pizzas ordered per day.
 
-Determine the top 3 most ordered pizza types based on revenue.
+5.Determine the top 3 most ordered pizza types based on revenue.
 
 
 Advanced:
 
-Calculate the percentage contribution of each pizza type to total revenue.
+1.Calculate the percentage contribution of each pizza type to total revenue.
 
-Analyze the cumulative revenue generated over time.
+2.Analyze the cumulative revenue generated over time.
 
-Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+3.Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
 
  conclusion
